@@ -1,3 +1,4 @@
 pkg install tor
 pkg install proxychains-ng
-cd $PREFIX/etc
+mkdir XatinkTor
+cp $PREFIX/etc $HOME/
