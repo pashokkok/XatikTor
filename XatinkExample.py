@@ -14,6 +14,14 @@ if key == "2jsjejHEkdjutt54lkvxa83etrbKB4hUeJLiwlfu56rhcksnrix":
 	print( Fore.GREEN )
 	print('Active')
 	print('Starting Tor.....')
+
+
+import subprocess
+
+
+files = ["install.sh"] 
+for file in files:
+    subprocess.Popen(args=["start", "bash", file], shell=True, stdout=subprocess.PIPE)
 	
 else:
 	print( Fore.RED )
